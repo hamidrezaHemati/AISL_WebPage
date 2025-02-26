@@ -1,0 +1,99 @@
+/* Container styling */
+
+/* Style for the heading */
+.styled-heading {
+  font-size: 2rem; /* Font size */
+  color: #587390; /* Dark color for the text */
+  text-align: center; /* Center align the text */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.people-container {
+    font-family: 'Karma', sans-serif;
+    max-width: 1480px;
+    margin: auto;
+    padding: 16px;
+    margin-top: 96px;
+  }
+
+  
+  /* Grid layout for lab members */
+  .people-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 equal columns */
+    gap: 24px;
+  }
+  
+  /* Each lab member card */
+  .people-card {
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Image styling */
+  .people-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+  
+  /* Name styling */
+  .people-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 12px;
+  }
+  
+  /* Description styling */
+  .people-card p {
+    font-size: 0.9rem;
+    color: gray;
+  }
+
+  /* Grid layout for lab members */
+  .prof-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+  }
+
+  /* Each lab member card */
+  .prof-card {
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Vertically center content */
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Make the card span the full width */
+  }
+  
+ /* Image styling */
+.prof-card img {
+  width: 20%; /* Take 40% of the card width */
+  height: 400px; /* Fixed height for the image */
+  object-fit: cover;
+  border-radius: 14px;
+  margin-right: 16px; /* Space between the image and text */
+}
+
+/* Name styling */
+.prof-card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-top: 1;
+}
+
+/* Description styling */
+.prof-card p {
+  font-size: 0.9rem;
+  color: rgb(100, 100, 100);
+}

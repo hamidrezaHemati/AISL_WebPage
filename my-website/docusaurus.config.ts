@@ -5,9 +5,9 @@
  */
 export default {
   "title": "AUT AISL",
-  "tagline": "Autonomous and ]ntelligent ُystems »aboratory",
+  "tagline": "Autonomous and Intelligent Systems Laboratory",
   "favicon": "imga/icon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https:/AISL-AUT.com",
   "baseUrl": "/",
   "organizationName": "AISL",
   "projectName": "Website",
@@ -55,7 +55,7 @@ export default {
       "title": "Home",
       "logo": {
         "alt": "AISL Logo",
-        "src": "imga/AISL-logo.jpg"
+        "src": "imga/AISL-new-logo.jpg"
       },
       "items": [
         {

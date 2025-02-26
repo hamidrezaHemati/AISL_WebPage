@@ -45,6 +45,7 @@ function Feature({title, description}: FeatureItem) {
   );
 }
 
+
 export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
