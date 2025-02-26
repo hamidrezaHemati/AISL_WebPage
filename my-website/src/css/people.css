@@ -31,7 +31,7 @@
     padding: 16px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;
   }
   
   /* Image styling */
@@ -63,37 +63,60 @@
     gap: 24px;
   }
 
-  /* Each lab member card */
-  .prof-card {
-    background-color: rgb(255, 255, 255);
-    padding: 16px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex; /* Use flexbox for horizontal alignment */
-    align-items: center; /* Vertically center content */
-    text-align: left; /* Align text to the left */
-    width: 100%; /* Make the card span the full width */
-  }
-  
- /* Image styling */
-.prof-card img {
-  width: 20%; /* Take 40% of the card width */
-  height: 400px; /* Fixed height for the image */
-  object-fit: cover;
-  border-radius: 14px;
+ /* Each lab member card */
+.prof-card {
+  background-color: rgb(255, 255, 255);
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: flex-start; /* Align items at the start of the container */
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Make the card span the full width */
+}
+
+/* Image styling */
+.prof-img-div {
+  flex: 0 0 20%; /* Image will take up 20% of the card width */
   margin-right: 16px; /* Space between the image and text */
 }
 
+.prof-img {
+  width: 100%; /* Full width of the .prof-img-div */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* Text container styling */
+.prof-content-div {
+  margin-bottom: 10px; /* Add space between the rows */
+}
+
 /* Name styling */
-.prof-card h3 {
-  font-size: 1.2rem;
+.prof-title {
+  font-size: 1.7rem;
   font-weight: bold;
   color: rgb(0, 0, 0);
-  margin-top: 1;
+}
+
+/* Position styling */
+.prof-position {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+/* Position styling */
+.prof-lab-state {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
 /* Description styling */
-.prof-card p {
+.prof-descripton {
   font-size: 0.9rem;
+  font-weight: normal;
   color: rgb(100, 100, 100);
 }
